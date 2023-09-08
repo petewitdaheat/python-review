@@ -31,7 +31,40 @@ iterable = dict({'nine': 9,
                  'four': 4,
                  'three': 3,
                  'two': 2,
-                 'one': 1,})
+                 'one': 1,
+                 })
 for i in iterable:
-    print("%d" % (iterable[i], end=" "))
+    print("%d" % (iterable[i]), end = " ")
 print("blastoff!")
+
+# The while loop must be provided a condition
+# As long as the condition is true, its code 
+# block will be executed.
+i = 9
+while(i > 0):
+    print(i, sep=" ", end=" ")
+    # there must be a line of code in the code block
+    # that forces the conditions to become false, else
+    # the loop will repeat infinitely
+    i = i - 1
+    print("blastoff!")
+
+i = 8
+while(i > 0):
+    print(i, sep=" ", end=" ")
+    # there must be a line of code in the code block
+    # that forces the conditions to become false, else
+    # the loop will repeat infinitely
+    i = i - 2
+    print("blastoff!")
+
+i = 9
+while(i > 0):
+    if(i % 2 == 0):
+        print(i, sep=" ", end=" ")
+    print(i, sep=" ", end=" ")
+    # there must be a line of code in the code block
+    # that forces the conditions to become false, else
+    # the loop will repeat infinitely
+    i = i - 1
+    print("blastoff!")

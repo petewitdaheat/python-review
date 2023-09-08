@@ -60,3 +60,11 @@ print("Hello %s %s. Your phone number is %s." %(fname, lname, tn))
 # We can take in a variable number of inputs at a time.
 x = [int(x) for x in input("Enter multiple numbers separated by a space: ").split()]
 print("Numbers are: ", x)
+
+# 1. Write the line of coded that promts the user to input their 
+# first and last names and age separated by a space. You must use the split
+# function to separate the input values and then you must store them in variables.
+first, last, age = input("Please enter your first and last names, followed by your age, all separated by a space: ").split()
+
+# 2.
+print("Hello %s %s. You are %s years old.")
